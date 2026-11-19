@@ -14,3 +14,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}.js .reveal{opacity:1;transform:none}.js .tagline .word{opacity:1}}
 
 .admin-entry{display:grid;place-items:center;width:32px;height:32px;border-radius:8px;color:var(--muted);flex-shrink:0}.admin-entry:hover{background:var(--olive);color:var(--ink)}.header .desktop-nav{margin-left:auto}@media(max-width:760px){.admin-entry{margin-left:auto}}
+
+/* Support programme logos, between the support notice and the hero heading. */
+.hero-support-logos{display:flex;align-items:center;gap:24px;max-width:100%;margin-bottom:24px}.hero-support-logos img{display:block;object-fit:contain;object-position:left center;mix-blend-mode:multiply;flex-shrink:1;min-width:0}.hero-support-logos .platform-logo{width:160px;height:128px}.hero-support-logos .foundation-logo{width:224px;height:128px}.hero .hero-copy>.eyebrow{margin-bottom:16px}@media(max-width:760px){.hero-support-logos{gap:16px;margin-bottom:24px}.hero-support-logos .platform-logo{width:112px;height:96px}.hero-support-logos .foundation-logo{width:176px;height:96px}}
